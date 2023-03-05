@@ -44,6 +44,7 @@ button {
   gap: 10px;
 }
 .form-label {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   width: 150px;
   margin-bottom: 10px;
   font-weight: 600;
@@ -53,4 +54,5 @@ button {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-size: 24px;
   text-decoration: none;
+  list-style: none;
 }
