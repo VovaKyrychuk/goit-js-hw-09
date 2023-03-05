@@ -18,8 +18,8 @@ img {
 }
 
 button {
-  margin-left: auto;
-  margin-right: auto;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
   padding: 10px 20px;
   font-size: 16px;
   border-radius: 5px;
@@ -38,8 +38,8 @@ button {
 .form {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  align-items: flex-start;
+
   margin-top: 50px;
   gap: 10px;
 }
@@ -54,5 +54,19 @@ button {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-size: 24px;
   text-decoration: none;
+}
+.list {
   list-style: none;
+}
+.timer {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.field {
+  margin-top: 10px;
+  margin-left: 5px;
+
+  padding: 10px;
+  width: 150px;
+  border-radius: 5px;
+  border: 1px solid gray;
 }
